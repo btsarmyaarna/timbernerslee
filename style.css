@@ -1,0 +1,122 @@
+body {
+    padding-top: 800px;
+    margin: 0;
+    text-align: center;
+}
+
+.profile {
+    width: 175px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #390f59;
+    opacity: 0.90;
+    background: linear-gradient(#390f59 0%, #0c75ad 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    z-index: 9;
+}
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+h1{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 300;
+}
+#name{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Style Script', cursive;
+    }
+h2{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 300;
+    line-height: 1.2;
+    
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+    
+}
+.line{
+    height: 6px;
+    background-color: aqua;
+    width: 70px;
+    margin: 8px auto;
+    
+}
+p{
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.4;
+    max-width: 450px;
+}
+.menu{
+    font-family: 'Style Script', cursive;
+    position:fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    background-color: aqua;
+}
+.links{
+    display: inline;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:33px;
+    padding-right: 25px;
+    font-family: 'Style Script', cursive;
+    font-size: 20px;
+}
+.links:hover{
+    background-color:white;
+    text-decoration: underline;
+    font-size: 25px;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+color: aquamarine;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+}
+.article:hover{
+    color:antiquewhite;
+}
+#writings a{
+    text-decoration: underline !important;
+    text-shadow: none !important;
+    color: cyan!important;
+}
+#contact{
+    background-color: aquamarine;
+}
+#contact iframe{
+    width: 80%;
+}
+.contact1 a{
+    color: aqua;
+    text-shadow: none;
+}
+.contact1 h3{
+    display: inline;
+}
